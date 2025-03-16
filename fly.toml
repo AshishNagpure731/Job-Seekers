@@ -1,0 +1,4 @@
+app = "job-seekers"
+
+[build]
+  source = "backend"  # or "frontend" depending on what you want to deploy
