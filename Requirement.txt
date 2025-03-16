@@ -1,0 +1,32 @@
+Thank you for your interest in our job opening. As a next step, please complete this short assignment: a mini HR job board with resume parsing.
+
+Objective
+Build a small web app where recruiters post jobs, and candidates apply by uploading a resume. Upon upload, a third-party API (mock or real) parses key details, which are displayed in the recruiter’s dashboard.
+
+Requirements
+
+Data Model & DB
+User (id, email, password, role)
+Job (id, title, description, status)
+Application (id, candidateId, jobId, resumeUrl, parsed fields)
+Back-End API (JWT/session-based)
+Auth: POST /auth/register, POST /auth/login
+Jobs (recruiter only): POST/GET/PUT/DELETE /jobs
+Resume Parsing: POST /applications (accept file/link, call parser API, store results)
+Front-End (any modern framework)
+Login/Register for recruiters/candidates
+Job Listings (public); recruiters manage jobs
+Apply (candidate uploads resume)
+Dashboard (recruiters see parsed details)
+Security
+Recruiters only manage postings/view applications
+Candidates can see jobs, apply, view their own status
+Documentation
+A brief README on setup, usage, and API testing
+
+We designed this assignment to showcase your full-stack abilities. The scope is focused so we can see your best work quickly.
+
+Once submitted, we’ll invite you to a technical interview to discuss your solution, followed by an HR round. We look forward to your creative approach!
+
+All The Best!
+Submission deadline: 07 March, 2025
