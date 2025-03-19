@@ -1,4 +1,0 @@
-app = "job-seekers"
-
-[build]
-  source = "backend" 
